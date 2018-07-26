@@ -1,6 +1,8 @@
 package com.example.mkreh.musicstructure;
 
-public class ArtistsActivity {
+import android.support.v7.app.AppCompatActivity;
+
+public class ArtistsActivity extends AppCompatActivity{
 
     //store name
     private String mName;
@@ -8,6 +10,10 @@ public class ArtistsActivity {
     private String mSongCount;
     //store genre
     private String mGenre;
+
+    //Constructor with no arguments
+    public ArtistsActivity (){
+    }
 
     //Constructor to create an instance
     public ArtistsActivity (String mName, String mSongCount, String mGenre){
